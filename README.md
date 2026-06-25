@@ -2,8 +2,6 @@
 
 > Analyzing customer journeys, conversion funnels, drop-off behavior, and review sentiment using SQL, Python, and Power BI.
 
----
-
 ## 🗂️ Table of Contents
 
 - [Project Overview](#project-overview)
@@ -11,8 +9,6 @@
 - [Project Flow](#project-flow)
 - [Key Findings](#key-findings)
 - [Connect](#connect)
-
----
 
 ## Project Overview
 
@@ -23,8 +19,6 @@ The pipeline is designed to answer critical business questions:
 - Which stages of the funnel have the lowest conversion?
 - What are customers saying?
 
----
-
 ## Tech Stack
 
 | Tool | Purpose |
@@ -32,8 +26,6 @@ The pipeline is designed to answer critical business questions:
 | **SQL (SQL Server)** | Data restoration, cleaning, and transformation |
 | **Python** | Sentiment score generation from customer reviews |
 | **Power BI** | Interactive dashboards and visual analysis |
-
----
 
 ## Project Flow
 
@@ -57,15 +49,12 @@ The final enriched dataset was loaded into Power BI to build an interactive mult
 - 🔽 **Funnel Analysis** — Built a stage-by-stage conversion funnel measuring drop rates at each step and surfacing bottlenecks where volume falls significantly.
 - 🚪 **Drop-Off Analysis** — Identified exit points across funnel stages and compared drop-off rates by channel, product category, and time period.
 
----
-
 ## Key Findings
 
 - **Highest Drop-Off Stage:** The largest customer drop-off occurred at the `Checkout` stage, with approximately `576` users not proceeding further. This tells that Checkout page has pain points which is causing customer drop off.
 - **Average Duration and Drop-off:** With Average Duration of `157` product named Basketball contributed the most to Drop-off.
 - **Sentiment Distribution:** `840` reviews were Positive, `15` Neutral, and `226` Negative.
 - **Journey Insight:** Customer Journey Analysis shows that only `9.6%` customers ends at Purchase.
----
 
 ## Connect
 
